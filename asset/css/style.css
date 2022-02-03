@@ -53,7 +53,7 @@ body{
 }
 
 .container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
 }
@@ -82,8 +82,69 @@ body{
     position: absolute;
     right: 0;
     top: 10px;
+    line-height: 19px;
+    font-size: 25px;
+}
+
+.heart:hover{
+    cursor: pointer;
 }
 
 .description{
     text-align: left;
+}
+
+.img{
+    width: 280px;
+    height: 404px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.img1{
+    background-image: url(../img/1.webp);
+}
+
+.img1:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.img2{
+    background-image: url(../img/2.webp);
+}
+
+.img2:hover{
+    background-image: url(../img/2b.webp);
+}
+
+.img3{
+    background-image: url(../img/3.webp);
+}
+
+.img3:hover{
+    background-image: url(../img/3b.webp);
+}
+
+.img4{
+    background-image: url(../img/4.webp);
+}
+
+.img4:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.img5{
+    background-image: url(../img/5.webp);
+}
+
+.img5:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.img6{
+    background-image: url(../img/6.webp);
+}
+
+.img6:hover{
+    background-image: url(../img/6b.webp);
 }
