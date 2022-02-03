@@ -1,5 +1,68 @@
+/* RESET */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/* FINE RESET */
+
+/* UTILITY */
+
+.bg-red{
+    background-color: #ef2851;
+}
+
+.bg-green{
+    background-color: #0c8a60;
+}
+
+.f-white{
+    color: white;
+}
+
+/* FINE UTILITY */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item{
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.discount{
+
+}
+
+.sustainability{
+
+}
+
+.heart{
+    height: 38px;
+    width: 38px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.img1{
+    background-image: url(../img/1.webp);
+}
+
+.img2{
+    background-image: url(../img/2.webp);
+}
+
+.img3{
+    background-image: url(../img/3.webp);
+}
+
