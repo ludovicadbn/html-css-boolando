@@ -16,42 +16,73 @@
     background-color: #0c8a60;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.f-xsmall{
+    font-size: x-small;
+}
+
 .f-white{
     color: white;
 }
 
+.f-bold{
+    font-weight: bold;
+}
+
+.p-5{
+    padding: 5px;
+}
+
 /* FINE UTILITY */
+
+body{
+    font-family: sans-serif;
+}
 
 .container{
     width: 80%;
     margin: 0 auto;
     text-align: center;
 }
+/* 
+.item-container{
+    position: relative;
+    width: 280px;
+    height: 420px;
+} */
 
 .item{
     display: inline-block;
+    position: relative;
+    width: 280px;
+    /* display: inline-block;
     width: 280px;
     height: 400px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
+    position: relative; */
 }
 
-.discount{
-
+.item img{
+    width: 280px;
 }
 
-.sustainability{
-
+.labels{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
 }
 
 .heart{
     height: 38px;
     width: 38px;
     padding: 10px;
-    background-color: white;
     position: absolute;
     right: 0;
+    top: 10px;
 }
 
 .img1{
@@ -66,3 +97,7 @@
     background-image: url(../img/3.webp);
 }
 
+.description{
+    text-align: left;
+    position: absolute;
+}
