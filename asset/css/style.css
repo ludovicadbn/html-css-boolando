@@ -101,14 +101,14 @@ body{
     margin-bottom: 5px;
 }
 
-.img img:nth-last-of-type(2){
+.img img:nth-of-type(2){
     display: none;
 }
 
-.img:hover img:nth-last-of-type(2){
+.img:hover img:nth-of-type(2){
     display: block;
 }
 
-.img:hover img:nth-last-of-type(1){
+.img:hover img:nth-of-type(1){
     display: none;
 }
